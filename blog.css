@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    align-self: flex-end;
+    top: 0;
+    z-index: 5;
+    background-color: #826f66;
+    height: 5em;
+    margin-bottom: 2em;
+  }
+  
+  header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffe6bc;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2em;
+    margin-left: 20px;
+  }
+  body {
+    background-image: linear-gradient(#8e806a, #c3b091, #e4cda7, #ffe6bc);
+  }
+  
+  body h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 3em;
+  }
+  
+  body p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+  }
+  
+  .container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    margin-bottom: 60px;
+    border: 3px solid #826F66;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px ;
+  }
+  
+  .container h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+  }
+  
+  .container li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    padding: 0.5em;
+  }
+  
+  .ships-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+  
+  .ships-image img {
+    width: 350px;
+    height: 200px;
+  }
+  /* ---------Stat of course-------- */
+  .course {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .course-container {
+    width: 700px;
+    height: auto;
+    padding: 1em;
+    margin-bottom: 50px;
+    border: 3px solid #826F66;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px ;
+  }
+  
+  .course h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .course p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  
+  /* -----------start of experience------ */
+  
+  .experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .experience-container {
+    width: 700px;
+    height: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 3px solid #826F66;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px ;
+  }
+  
+  /* -------------Start of mental health-------- */
+  
+  .mental-health {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .mental-health-container {
+    width: 700px;
+    height: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 3px solid #826F66;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px ;
+  }
+  
+  /* ----------start of accidents------- */
+  
+  .common-accidents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .accidents-container {
+      width: 700px;
+      height: auto;
+      padding: 1em;
+      margin-bottom: 1em;
+      border: 3px solid #826F66;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+       border-radius: 10px ;
+  }
+  
+  .accidents-container img {
+      width: 650px;
+      height: 200px;
+      padding: 5px;
+  }
+  
